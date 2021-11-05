@@ -1,0 +1,3 @@
+ function y=reflect(z1,z2,z3,X)
+ y=((1-z1/z3)*cos(X)-1i*(z2/z3-z1/z3)*sin(X))./...
+ ((1+z1/z3)*cos(X)-1i*(z2/z3+z1/z3)*sin(X));

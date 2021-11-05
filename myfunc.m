@@ -1,0 +1,6 @@
+function y=myfunc(z1,z2,z3,X)
+##  y=((1-z1/z3)*cos(X)-1i*(z2/z3-z1/z3)*sin(X))./...
+##  ((1+z1/z3)*cos(X)-1i*(z2/z3+z1/z3)*sin(X));
+  
+    y=(((1-z1/z3)^2)*cos(X).*cos(X)+((z2/z3-z1/z3)^2)*sin(X).*sin(X))./...
+  (((1+z1/z3)^2)*cos(X).*cos(X)+((z2/z3+z1/z3)^2)*sin(X).*sin(X));
